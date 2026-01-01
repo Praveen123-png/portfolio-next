@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Praveen Kumar V P",
+  title: "Praveen's Portfolio",
   description:
     "Full-Stack Developer specializing in React, Next.js, and modern web technologies.",
 };
