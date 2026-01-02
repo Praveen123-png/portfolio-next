@@ -59,16 +59,13 @@ export default function Hero() {
       ref={containerRef}
       className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 max-w-350 mx-auto overflow-hidden bg-transparent"
     >
-      <div
-        ref={nameRef}
-        className="absolute top-24 left-6 md:left-12 lg:left-24 opacity-0"
-      >
-        <span className="text-lg tracking-widest text-text-secondary hover:text-accent transition-colors duration-500 cursor-default ">
-          I am Praveen Kumar V P
+      <div ref={nameRef} className="absolute top-30 left-6 md:left-12 lg:left-24">
+        <span className="text-lg md:text-2xl tracking-widest text-white/80 hover:text-accent transition-colors duration-500 cursor-default ">
+          I&apos;m Praveen Kumar V P
         </span>
       </div>
 
-      <div className="flex flex-col items-start max-w-5xl z-10 pt-10">
+      <div className="flex flex-col items-start max-w-5xl z-10">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
           <span ref={taglineLine1Ref} className="block">
             A passionate

@@ -87,7 +87,7 @@ export default function Skills() {
     <section
       id="skills"
       ref={containerRef}
-      className="relative min-h-[80vh] py-24 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto flex flex-col justify-center"
+      className="relative min-h-[80vh] py-24 px-6 md:px-12 lg:px-24 max-w-350 mx-auto flex flex-col justify-center"
     >
       <div className="mb-20">
         <h2

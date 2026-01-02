@@ -7,8 +7,8 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { name: "Projects", href: "projects" },
-  { name: "Skills", href: "skills" },
   { name: "Experience", href: "experience" },
+  { name: "Skills", href: "skills" },
   { name: "Contact", href: "contact" },
 ];
 
@@ -136,9 +136,9 @@ export default function Navbar() {
       {/* Mobile Sidebar */}
       <div
         ref={sidebarRef}
-        className="fixed top-0 right-0 h-full w-[80%] max-w-sm bg-background border-l border-white/10 z-50 transform translate-x-full md:hidden flex flex-col justify-center px-8 shadow-2xl"
+        className="fixed top-15 right-0 h-full w-[80%] max-w-sm z-50 transform translate-x-full md:hidden flex flex-col justify-center px-8 shadow-2xl"
       >
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col -translate-y-20 gap-8">
           {navLinks.map((link) => (
             <a
               key={link.name}
